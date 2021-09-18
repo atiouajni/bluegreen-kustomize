@@ -1,0 +1,10 @@
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:
+  name: bluegreen
+spec:
+  template:
+    metadata:
+      labels:
+        color: green
+
