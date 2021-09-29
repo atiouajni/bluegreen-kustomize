@@ -29,7 +29,7 @@ git clone git clone https://github.com/atiouajni/bluegreen-kustomize
 kustomize build ./base | oc apply -f -
 ```
 
-**2 - Change to green color by applying the overlay
+**2 - Change to green color by applying the overlay**
 
 ```shell
 kustomize build ./overlay/green | oc apply -f -
